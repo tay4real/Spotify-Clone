@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+* {
+    font-family: Montserrat;
+}
+
+.head {
+    padding: 25px 0 10px;
+    margin-bottom: -3px;
+    text-align: center;
+}
+
+.fButton {
+    background-color: #3b5998 !important;
+    color: #FFFFFF !important;
+    text-align: center;
+    font-size: 14px !important;
+    margin-left: 43.8rem;
+    width: 28rem;
+    height: 3rem;
+    border-radius: 1000px !important;
+    letter-spacing: 1.5px !important
+}
+
+.aButton {
+    margin-top: 0.8rem;
+    background-color: #000000 !important;
+    color: #FFFFFF !important;
+    text-align: center;
+    font-size: 14px !important;
+    margin-left: 43.8rem;
+    width: 28rem;
+    height: 3rem;
+    border-radius: 1000px !important;
+    letter-spacing: 1.5px !important
+}
+
+.gButton {
+    margin-top: 0.8rem;
+    color: #000000 !important;
+    border: 2px solid #626467 !important;
+    text-align: center;
+    font-size: 14px !important;
+    margin-left: 43.8rem;
+    width: 28rem;
+    height: 3rem;
+    border-radius: 1000px !important;
+    letter-spacing: 1.5px !important
+}
+
+.fButton i {
+    margin-right: 10px;
+}
+
+.aButton i {
+    margin-right: 10px;
+}
+
+.gButton i {
+    margin-right: 10px;
+}
+
+.bHeader {
+    text-align: center;
+    margin-top: 2.1rem;
+    letter-spacing: -1.3px !important;
+    font-size: 16px !important;
+}
+
+.tHeader {
+    float: left;
+    float: right;
+}
+
+.tLine {
+    width: 30rem;
+}
