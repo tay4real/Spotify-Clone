@@ -22,6 +22,11 @@
     letter-spacing: 1.5px !important
 }
 
+.fButton:hover {
+    background-color: #2f4b88 !important;
+    color: #FFFFFF !important;
+}
+
 .aButton {
     margin-top: 0.8rem;
     background-color: #000000 !important;
@@ -35,6 +40,11 @@
     letter-spacing: 1.5px !important
 }
 
+.aButton:hover {
+    background-color: #111222 !important;
+    color: #FFFFFF !important;
+}
+
 .gButton {
     margin-top: 0.8rem;
     color: #626470 !important;
@@ -46,6 +56,12 @@
     height: 3rem;
     border-radius: 1000px !important;
     letter-spacing: 1.5px !important
+}
+
+.gButton:hover {
+    color: #FFFFFF !important;
+    border: 2px solid #626467 !important;
+    background-color: #626470;
 }
 
 .fButton i {
@@ -62,7 +78,7 @@
 
 .bHeader {
     text-align: center;
-    margin-top: 2.1rem;
+    margin-top: 2.2rem;
     letter-spacing: -1px !important;
     font-size: 16px !important;
 }
@@ -95,9 +111,14 @@
     margin-top: -rem
 }
 
+.fypText:hover {
+    color: rgb(0, 88, 0) !important;
+}
+
 .labelbox {
     margin-left: 44.8rem !important;
     margin-top: 3rem;
+    color: green;
 }
 
 #divbox {
@@ -105,7 +126,7 @@
 }
 
 .loginButton {
-    background-color: #3b5998 !important;
+    background-color: #008321 !important;
     color: #FFFFFF !important;
     text-align: center;
     font-size: 14px !important;
@@ -114,4 +135,33 @@
     height: 3rem;
     border-radius: 1000px !important;
     letter-spacing: 1.5px !important
+}
+
+.loginButton:hover {
+    background-color: #1db954 !important;
+    color: #FFFFFF !important;
+}
+
+#loginHr {
+    margin-top: 4.3rem;
+    width: 28rem;
+}
+
+.cButton {
+    margin-top: 0.8rem;
+    color: #626470 !important;
+    border: 2px solid #626467 !important;
+    text-align: center;
+    font-size: 14px !important;
+    margin-left: 44.65rem;
+    width: 28rem;
+    height: 3rem;
+    border-radius: 1000px !important;
+    letter-spacing: 1.5px !important
+}
+
+.cButton:hover {
+    color: #FFFFFF !important;
+    border: 2px solid #626467 !important;
+    background-color: #626470;
 }
