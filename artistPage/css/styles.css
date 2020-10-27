@@ -1,0 +1,33 @@
+.navigation {
+  min-height: 100vh;
+  background-color: #000 !important;
+}
+
+.nav-link:link {
+  color: grey !important;
+}
+
+.nav-link:visited {
+  color: grey !important;
+}
+
+.nav-link:hover {
+  color: grey !important;
+}
+
+.nav-link:active {
+  color: #eee !important;
+}
+.nav-link:focus {
+  color: #eee;
+}
+
+.active {
+  color: grey !important;
+}
+
+@media (max-width: 576px) {
+  .nav-link {
+    font-size: 0.6rem !important;
+  }
+}
