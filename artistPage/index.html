@@ -89,6 +89,7 @@
                   class="rounded-pill mr-5 mr-md-1 d-block d-md-inline img-fluid"
                   alt=""
                 />
+
                 <a class="nav-link text-white d-block d-md-inline" href="#">
                   Diego 'Ziba' Banovaz
                 </a>
@@ -269,18 +270,93 @@
           </section>
         </div>
       </div>
-      <div id="current-playing" class="row">
-        <div class="col d-flex align-items-center justify-content-start">
-          <img src="https://placehold.it/30x30" class="img-fluid mr-1" alt="" />
+      <div
+        id="current-playing"
+        class="row fixed-bottom justify-content-bewteen align-items-center py-2 px-3"
+      >
+        <div
+          class="col col-md-4 d-flex align-items-center justify-content-start my-2"
+        >
+          <img
+            src="https://i.scdn.co/image/ab67616d00004851d92f69c3b3adb389afdde64f"
+            class="img-fluid mr-1"
+            alt=""
+          />
+          <div class="d-flex flex-column justify-content-around mx-2">
+            <label class="current-title m-0"
+              >Procession - Remastered 2011</label
+            >
+            <label class="current-artist m-0 text-muted">Queen</label>
+          </div>
+          <i class="fa fa-heart-o mx-2" aria-hidden="true"></i>
+          <i class="fa fa-picture-o mx-2" aria-hidden="true"></i>
+        </div>
+        <div class="col col-md-6 px-5 my-2">
           <div
-            class="d-flex flex-column align-items-center justify-content-center mr-1"
+            id="controls"
+            class="d-flex justify-content-center align-items-center"
           >
-            <span class="current-title">Song For My Father</span>
-            <span></span>
+            <i
+              class="fa fa-random fa-sm mx-2"
+              style="font-size: 0.8rem"
+              aria-hidden="true"
+            ></i>
+            <i
+              class="fa fa-fast-backward mx-2"
+              style="font-size: 0.8rem"
+              aria-hidden="true"
+            ></i>
+            <i
+              class="fa fa-play-circle-o fa-lg"
+              style="font-size: 2rem mx-2"
+              aria-hidden="true"
+            ></i>
+            <i
+              class="fa fa-fast-forward mx-2"
+              style="font-size: 0.8rem"
+              aria-hidden="true"
+            ></i>
+            <i
+              class="fa fa-refresh mx-2"
+              style="font-size: 0.8rem"
+              aria-hidden="true"
+            ></i>
+          </div>
+          <div id="progress-time" class="d-flex align-items-center">
+            <div id="current-time" class="mr-2">3.21</div>
+            <div class="progress w-100">
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated"
+                role="progressbar"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                style="width: 75%"
+              ></div>
+            </div>
+
+            <div id="album-duration" class="ml-2">7:10</div>
           </div>
         </div>
-        <div class="col"></div>
-        <div class="col"></div>
+        <div
+          class="col col-md-2 d-flex justify-content-end align-items-center px-3 my-2"
+        >
+          <i class="fa fa-list mx-2" aria-hidden="true"></i>
+          <div class="mx-2 d-flex justify-content-center align-items-center">
+            <i class="fa fa-window-maximize" aria-hidden="true"></i>
+            <i class="fa fa-mobile fa-lg" aria-hidden="true"></i>
+          </div>
+          <i class="fa fa-volume-up mx-2" aria-hidden="true"></i>
+          <div class="progress w-25">
+            <div
+              class="progress-bar progress-bar-striped progress-bar-animated"
+              role="progressbar"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
       </div>
     </div>
 

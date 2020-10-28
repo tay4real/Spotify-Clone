@@ -103,6 +103,10 @@ button#follow {
   width: 7rem !important;
 }
 
+.progress {
+  height: 0.1rem !important;
+}
+
 @media (max-width: 576px) {
   .nav-link {
     font-size: 0.9rem !important;
@@ -112,4 +116,17 @@ button#follow {
 .album-details {
   font-size: 0.9rem !important;
   padding: 0.5rem 0.25rem;
+}
+
+.current-title {
+  font-size: 0.9rem !important;
+}
+
+.current-artist {
+  font-size: 0.7rem !important;
+  color: #888 !important;
+}
+
+#current-playing {
+  background-color: #333;
 }
