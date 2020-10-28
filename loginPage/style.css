@@ -4,10 +4,23 @@
     font-family: Montserrat, sans-serif;
 }
 
+html {
+    margin: 0px;
+    margin: auto;
+}
+
 .head {
     padding: 25px 0 10px;
     margin-bottom: -3px;
     text-align: center;
+}
+
+body {
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+
 }
 
 .fButton {
@@ -15,9 +28,6 @@
     color: #FFFFFF !important;
     text-align: center;
     font-size: 14px !important;
-    margin-left: 43.8rem;
-    width: 28rem;
-    height: 3rem;
     border-radius: 1000px !important;
     letter-spacing: 1.5px !important
 }
@@ -28,14 +38,9 @@
 }
 
 .aButton {
-    margin-top: 0.8rem;
     background-color: #000000 !important;
     color: #FFFFFF !important;
-    text-align: center;
     font-size: 14px !important;
-    margin-left: 43.8rem;
-    width: 28rem;
-    height: 3rem;
     border-radius: 1000px !important;
     letter-spacing: 1.5px !important
 }
@@ -46,14 +51,9 @@
 }
 
 .gButton {
-    margin-top: 0.8rem;
     color: #626470 !important;
     border: 2px solid #626467 !important;
-    text-align: center;
     font-size: 14px !important;
-    margin-left: 43.8rem;
-    width: 28rem;
-    height: 3rem;
     border-radius: 1000px !important;
     letter-spacing: 1.5px !important
 }
@@ -78,22 +78,15 @@
 
 .bHeader {
     text-align: center;
-    margin-top: 2.2rem;
     letter-spacing: -1px !important;
     font-size: 16px !important;
 }
 
 .tLine {
-    width: 28rem;
-    margin-top: 1.4rem !important;
-}
-
-.lSection {
-    margin-left: 43.8rem;
+    width: 18vw;
 }
 
 .labelSection {
-    margin-top: 1rem;
     font-size: 14px;
 }
 
@@ -105,10 +98,8 @@
 
 .fypText {
     text-align: center;
-    margin-left: -29rem !Important;
     color: green !important;
     height: 1.8rem;
-    margin-top: -rem
 }
 
 .fypText:hover {
@@ -116,8 +107,6 @@
 }
 
 .labelbox {
-    margin-left: 44.8rem !important;
-    margin-top: 3rem;
     color: green;
 }
 
@@ -130,9 +119,6 @@
     color: #FFFFFF !important;
     text-align: center;
     font-size: 14px !important;
-    margin-left: 5rem;
-    width: 14rem;
-    height: 3rem;
     border-radius: 1000px !important;
     letter-spacing: 1.5px !important
 }
@@ -143,19 +129,14 @@
 }
 
 #loginHr {
-    margin-top: 4.3rem;
-    width: 28rem;
+    width: 18vw;
 }
 
 .cButton {
-    margin-top: 0.8rem;
     color: #626470 !important;
     border: 2px solid #626467 !important;
     text-align: center;
     font-size: 14px !important;
-    margin-left: 44.65rem;
-    width: 28rem;
-    height: 3rem;
     border-radius: 1000px !important;
     letter-spacing: 1.5px !important
 }
