@@ -7,14 +7,24 @@ body {
 h2,
 h3 {
   color: aliceblue;
-  margin-left: 11rem;
-  margin-top: 5rem;
 }
 
 .cnt {
   width: fit-content;
   height: fit-content;
   float: center;
+}
+
+.card-body {
+  color: white;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+.menu .img-fluid {
+  min-height: 150px;
+  min-width: 150px;
+  object-fit: cover;
 }
 
 #sidenav {
