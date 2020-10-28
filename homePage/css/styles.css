@@ -13,6 +13,7 @@ h3 {
   width: fit-content;
   height: fit-content;
   float: center;
+  font-size: 0.9rem;
 }
 
 .card-body {
