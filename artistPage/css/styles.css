@@ -1,0 +1,133 @@
+body {
+  color: #eee !important;
+}
+
+#sidenav {
+  min-height: 90vh;
+  background-color: black;
+}
+
+.nav-link:link {
+  color: grey !important;
+}
+
+.nav-link:visited {
+  color: grey !important;
+}
+
+.nav-link:hover {
+  color: grey !important;
+}
+
+.nav-link:active {
+  color: #eee !important;
+}
+.nav-link:focus {
+  color: #eee;
+}
+
+.active {
+  color: grey !important;
+}
+
+#main-nav {
+  background-color: #222 !important;
+}
+
+#main-nav .container-fluid {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url("../assets/main-nav-bg.jpg");
+  min-height: 40vh;
+}
+
+.overlay-1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: inherit;
+  min-height: 35vh;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.overlay-2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: inherit;
+  min-height: 5vh;
+}
+
+p#listeners {
+  font-size: 0.7rem;
+  color: #ddd;
+}
+
+.main-nav {
+  list-style-type: none;
+  font-size: 0.7rem;
+}
+
+.main-nav a:link {
+  color: #fff !important;
+  list-style-type: none;
+}
+
+.main-nav a:visited {
+  color: #ddd !important;
+  list-style-type: none;
+}
+
+.main-nav a:hover {
+  color: #eee !important;
+  text-decoration: none;
+  border-bottom: 1px solid green;
+}
+
+.main-nav a:active {
+  color: #eee !important;
+  border-bottom: 1px solid green;
+}
+.main-nav a:focus {
+  color: #eee;
+  border-bottom: 1px solid green;
+}
+
+.main-nav a.active {
+  color: #eee !important;
+  border-bottom: 1px solid green;
+}
+
+button#play,
+button#follow {
+  width: 7rem !important;
+}
+
+.progress {
+  height: 0.1rem !important;
+}
+
+@media (max-width: 576px) {
+  .nav-link {
+    font-size: 0.9rem !important;
+  }
+}
+
+.album-details {
+  font-size: 0.9rem !important;
+  padding: 0.5rem 0.25rem;
+}
+
+.current-title {
+  font-size: 0.9rem !important;
+}
+
+.current-artist {
+  font-size: 0.7rem !important;
+  color: #888 !important;
+}
+
+#footer {
+  background-color: #333;
+  min-height: 10vh;
+}
