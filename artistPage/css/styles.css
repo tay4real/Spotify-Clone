@@ -1,10 +1,10 @@
 body {
   color: #eee !important;
-  background-color: #000 !important;
 }
 
 #sidenav {
-  min-height: 100vh;
+  min-height: 90vh;
+  background-color: black;
 }
 
 .nav-link:link {
@@ -127,6 +127,7 @@ button#follow {
   color: #888 !important;
 }
 
-#current-playing {
+#footer {
   background-color: #333;
+  min-height: 10vh;
 }
