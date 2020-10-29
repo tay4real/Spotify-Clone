@@ -150,18 +150,21 @@
             class="overlay-1 d-flex flex-column justify-content-center align-items-center"
           >
             <div class="d-flex align-items-center">
-              <p id="listeners" class="text-light p-0 m-0">
+              <p id="listeners" class="text-muted p-0 m-0">
                 33,000,575 MONTHLY LISTENERS
               </p>
             </div>
             <div class="d-flex align-items-center">
               <h1 class="text-light p-0 m-0 pb-2">Queen</h1>
             </div>
-            <div class="d-flex align-items-center justify-content-center">
+            <div
+              id="btn-container"
+              class="d-flex align-items-center justify-content-between"
+            >
               <button
                 id="play"
                 type="button"
-                class="btn btn-success rounded-pill d-inline py-1 mx-3"
+                class="btn btn-lemon rounded-pill d-inline py-1 mx-3"
               >
                 Play
               </button>
@@ -184,16 +187,25 @@
             <ul
               class="main-nav d-flex flex-row justify-content-center m-0 p-0 my-3"
             >
-              <li class="active m-0 p-0 py-2 mx-1">
-                <a class="active py-1" href="#">
+              <li
+                class="m-0 p-0 py-2 mx-1 dflex flex-column justify-content-center align-items-center"
+              >
+                <a class="active py-1 d-block" href="#">
                   OVERVIEW <span class="sr-only">(current)</span></a
                 >
+                <div id="active" class="d-block active"></div>
               </li>
-              <li class="m-0 p-0 py-2 mx-1">
-                <a class="py-1" href="#"> RELATED ARTIST </a>
+              <li
+                class="m-0 p-0 py-2 mx-1 dflex flex-column justify-content-center align-items-center"
+              >
+                <a class="py-1 d-block" href="#"> RELATED ARTIST </a>
+                <div id="active" class="d-block"></div>
               </li>
-              <li class="m-0 p-0 py-2 mx-1">
-                <a class="py-1" href="#">ABOUT</a>
+              <li
+                class="m-0 p-0 py-2 mx-1 dflex flex-column justify-content-center align-items-center"
+              >
+                <a class="py-1 d-block" href="#">ABOUT</a>
+                <div id="active" class="d-block"></div>
               </li>
             </ul>
           </div>

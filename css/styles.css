@@ -20,7 +20,60 @@ h3 {
   background-color: black;
 }
 
+/* Top Page Navigation Begins */
+#listeners {
+  color: #777 !important;
+  font-weight: 500 !important;
+}
+h1 {
+  font-size: 3rem !important;
+}
+
+.main-nav a:link {
+  color: #eee !important;
+  list-style-type: none;
+}
+
+.main-nav a:visited {
+  color: #eee !important;
+  list-style-type: none;
+}
+
+.main-nav a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.main-nav a:active,
+a.active {
+  color: #fff !important;
+  font-weight: bold;
+}
+.main-nav a:focus {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.main-nav #active.active {
+  color: #eee !important;
+  border-bottom: 1px solid#1db954;
+  max-width: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-nav #active:not(.active) {
+  visibility: hidden;
+}
+
+/* Top Page Navigation Ends */
+
 /* Home Page */
+.btn-lemon {
+  background-color: #1db954 !important;
+  color: #fff !important;
+}
+
 #home-page {
   background-color: #005790;
   background-image: linear-gradient(135deg, #005790 30%, #00021c 100%);
@@ -86,36 +139,6 @@ p#listeners {
   font-size: 0.7rem;
 }
 
-.main-nav a:link {
-  color: #fff !important;
-  list-style-type: none;
-}
-
-.main-nav a:visited {
-  color: #ddd !important;
-  list-style-type: none;
-}
-
-.main-nav a:hover {
-  color: #eee !important;
-  text-decoration: none;
-  border-bottom: 1px solid green;
-}
-
-.main-nav a:active {
-  color: #eee !important;
-  border-bottom: 1px solid green;
-}
-.main-nav a:focus {
-  color: #eee;
-  border-bottom: 1px solid green;
-}
-
-.main-nav a.active {
-  color: #eee !important;
-  border-bottom: 1px solid green;
-}
-
 button#play,
 button#follow {
   width: 7rem !important;
@@ -147,6 +170,7 @@ button#follow {
 /* Media Queries */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  /* SideNavigation Begins */
   #sidenav {
     padding: 0.5rem 0.35rem !important;
   }
@@ -202,10 +226,31 @@ button#follow {
     padding-top: 0.5rem;
     margin-top: 0.5rem;
   }
+  /* Side Navigation Ends */
+
+  /* Page Top Navigation Begins */
+  button#play,
+  button#follow {
+    width: 5rem !important;
+    font-size: 0.8rem;
+  }
+
+  #play,
+  #follow {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 0.3rem 0.5rem !important;
+  }
+
+  #btn-container {
+    min-width: 13rem !important;
+  }
+  /* Page Top Navigation Ends */
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /* Side Navigation Begins */
   #sidenav {
     padding: 0.6rem 0.2rem 0.6rem 0.5rem !important;
   }
@@ -261,6 +306,27 @@ button#follow {
     margin-top: 0.5rem;
     margin-right: 0.3rem;
   }
+
+  /* Side Navigation Ends */
+
+  /* Page Top Navigation Begins */
+  button#play,
+  button#follow {
+    width: 5rem !important;
+    font-size: 0.8rem;
+  }
+
+  #play,
+  #follow {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 0.3rem 0.5rem !important;
+  }
+
+  #btn-container {
+    min-width: 13rem !important;
+  }
+  /* Page Top Navigation Ends */
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -321,6 +387,25 @@ button#follow {
     margin-top: 0.5rem;
     margin-right: 0.4rem;
   }
+
+  /* Page Top Navigation Begins */
+  button#play,
+  button#follow {
+    width: 5rem !important;
+    font-size: 0.8rem;
+  }
+
+  #play,
+  #follow {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 0.3rem 0.5rem !important;
+  }
+
+  #btn-container {
+    min-width: 13rem !important;
+  }
+  /* Page Top Navigation Ends */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -385,6 +470,25 @@ button#follow {
     margin-top: 0.5rem;
     margin-right: 0.3rem;
   }
+
+  /* Page Top Navigation Begins */
+  button#play,
+  button#follow {
+    width: 5rem !important;
+    font-size: 0.8rem;
+  }
+
+  #play,
+  #follow {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 0.3rem 0.5rem !important;
+  }
+
+  #btn-container {
+    min-width: 13rem !important;
+  }
+  /* Page Top Navigation Ends */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -402,7 +506,7 @@ button#follow {
   }
 
   #top .links {
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 
   nav#sidenav #bottom {
@@ -449,4 +553,23 @@ button#follow {
     margin-top: 0.5rem;
     margin-right: 0.7rem;
   }
+
+  /* Page Top Navigation Begins */
+  button#play,
+  button#follow {
+    width: 5rem !important;
+    font-size: 0.8rem;
+  }
+
+  #play,
+  #follow {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 0.3rem 0.5rem !important;
+  }
+
+  #btn-container {
+    min-width: 13rem !important;
+  }
+  /* Page Top Navigation Ends */
 }
