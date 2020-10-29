@@ -1,0 +1,633 @@
+/* Common Styling */
+body {
+  background-color: #005790;
+  background-image: linear-gradient(135deg, #005790 30%, #00021c 100%);
+  color: #eee !important;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2,
+h3 {
+  color: aliceblue;
+}
+
+/* Side Navigation */
+#sidenav {
+  min-height: 10vh;
+  background-color: black;
+}
+
+/* Top Page Navigation Begins */
+#listeners {
+  color: #777 !important;
+  font-weight: 500 !important;
+}
+h1 {
+  font-size: 3rem !important;
+}
+
+.main-nav a:link {
+  color: #eee !important;
+  list-style-type: none;
+}
+
+.main-nav a:visited {
+  color: #eee !important;
+  list-style-type: none;
+}
+
+.main-nav a:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.main-nav a:active,
+a.active {
+  color: #fff !important;
+  font-weight: bold;
+}
+.main-nav a:focus {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.main-nav #active.active {
+  color: #eee !important;
+  border-bottom: 1px solid#1db954;
+  max-width: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-nav #active:not(.active) {
+  visibility: hidden;
+}
+
+/* Top Page Navigation Ends */
+
+/* Home Page */
+.btn-lemon {
+  background-color: #1db954 !important;
+  color: #fff !important;
+}
+
+#home-page {
+  background-color: #005790;
+  background-image: linear-gradient(135deg, #005790 30%, #00021c 100%);
+}
+
+.cnt {
+  font-size: 0.9rem;
+}
+
+.card-body {
+  color: white;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+.menu .img-fluid {
+  min-height: 150px;
+  min-width: 150px;
+  object-fit: cover;
+}
+
+/* Artist Page */
+#artist-page {
+  background-color: #222 !important;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+#artist-page .container-fluid {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url("../assets/main-nav-bg.jpg");
+  min-height: 40vh;
+}
+
+.overlay-1 {
+  width: inherit;
+  min-height: 35vh;
+}
+
+.overlay-2 {
+  width: inherit;
+  min-height: 5vh;
+}
+
+/* Album Page */
+#album-page {
+  background-color: #005790;
+  background-image: linear-gradient(135deg, #005790 30%, #00021c 100%);
+}
+
+/* Footer */
+p#listeners {
+  font-size: 0.7rem;
+  color: #ddd;
+}
+
+.main-nav {
+  list-style-type: none;
+  font-size: 0.7rem;
+}
+
+button#play,
+button#follow {
+  width: 7rem !important;
+}
+
+.progress {
+  height: 0.1rem !important;
+}
+
+.album-details {
+  font-size: 0.9rem !important;
+  padding: 0.5rem 0.25rem;
+}
+
+.current-title {
+  font-size: 0.9rem !important;
+}
+
+.current-artist {
+  font-size: 0.7rem !important;
+  color: #888 !important;
+}
+
+#footer {
+  background-color: #333;
+  min-height: 10vh;
+}
+
+/* Media Queries */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* SideNavigation Begins */
+  #sidenav {
+    padding: 0.5rem 0.35rem !important;
+  }
+  .logo img {
+    width: 100% !important;
+  }
+
+  nav#sidenav #top {
+    min-height: 10vh;
+  }
+
+  nav#sidenav #bottom {
+    min-height: 10vh;
+  }
+
+  .logo {
+    margin-bottom: 0.8rem;
+  }
+
+  .nav-item {
+    padding: 0.3rem 0;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .nav-item .nav-link {
+    padding-top: 0.3rem !important;
+  }
+
+  .nav-item .icon {
+    max-width: 2rem;
+    flex-grow: 1;
+  }
+
+  .nav-item .label {
+    max-width: 4.5rem;
+    flex-grow: 1;
+  }
+  .nav-item .icon svg,
+  .nav-item .icon img {
+    width: 24px !important;
+  }
+
+  .nav-item .icon i {
+    font-size: 24px;
+  }
+
+  .nav-link {
+    font-size: 0.8rem !important;
+  }
+
+  #bottom .nav-item {
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  /* Side Navigation Ends */
+
+  /* Page Top Navigation Begins */
+  button#play,
+  button#follow {
+    width: 5rem !important;
+    font-size: 0.8rem;
+  }
+
+  #play,
+  #follow {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 0.3rem 0.5rem !important;
+  }
+
+  #btn-container {
+    min-width: 13rem !important;
+  }
+
+  .overlay-1 {
+    width: inherit;
+    min-height: 20vh;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .overlay-2 {
+    width: inherit;
+    min-height: 1vh;
+  }
+  /* Page Top Navigation Ends */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Side Navigation Begins */
+  #sidenav {
+    padding: 0.6rem 0.2rem 0.6rem 0.5rem !important;
+  }
+  .logo img {
+    width: 80% !important;
+  }
+
+  nav#sidenav #top {
+    min-height: 10vh;
+  }
+
+  nav#sidenav #bottom {
+    margin-bottom: 0.5rem !important;
+    min-height: 10vh;
+  }
+
+  .logo {
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-item .nav-link {
+    padding: 0 0.3rem;
+    font-size: 0.8rem !important;
+  }
+
+  .nav-item {
+    padding: 0;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+  }
+
+  .nav-item .icon {
+    max-width: 20px;
+    flex-grow: 1;
+  }
+
+  .nav-item .label {
+    max-width: 4.5rem;
+    flex-grow: 3;
+  }
+  .nav-item .icon svg,
+  .nav-item .icon img {
+    width: 15px !important;
+  }
+
+  .nav-item .icon i {
+    font-size: 15px;
+  }
+
+  #bottom .nav-item {
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.3rem;
+  }
+
+  /* Side Navigation Ends */
+
+  /* Page Top Navigation Begins */
+  button#play,
+  button#follow {
+    width: 5rem !important;
+    font-size: 0.8rem;
+  }
+
+  #play,
+  #follow {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 0.3rem 0.5rem !important;
+  }
+
+  #btn-container {
+    min-width: 13rem !important;
+  }
+
+  .overlay-1 {
+    width: inherit;
+    min-height: 5vh;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .overlay-2 {
+    width: inherit;
+    min-height: 1vh;
+  }
+  /* Page Top Navigation Ends */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #sidenav {
+    padding: 2rem 0.3rem 2rem 0.5rem !important;
+  }
+  .logo img {
+    width: 80% !important;
+  }
+
+  nav#sidenav #top {
+    /* margin-top: 0.5rem !important; */
+    min-height: 40vh;
+  }
+
+  nav#sidenav #bottom {
+    margin-bottom: 0.5rem !important;
+    min-height: 10vh;
+  }
+
+  .logo {
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-item .nav-link {
+    padding: 0 0.3rem;
+    font-size: 1.2rem !important;
+  }
+
+  .nav-item {
+    padding: 0;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+  }
+
+  .nav-item .icon {
+    max-width: 2rem;
+    flex-grow: 1;
+  }
+
+  .nav-item .label {
+    max-width: 5rem;
+    flex-grow: 2;
+  }
+  .nav-item .icon svg,
+  .nav-item .icon img {
+    width: 24px !important;
+  }
+
+  .nav-item .icon i {
+    font-size: 24px;
+  }
+
+  #bottom .nav-item {
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.4rem;
+  }
+
+  /* Page Top Navigation Begins */
+  button#play,
+  button#follow {
+    width: 5rem !important;
+    font-size: 0.8rem;
+  }
+
+  #play,
+  #follow {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 0.3rem 0.5rem !important;
+  }
+
+  #btn-container {
+    min-width: 13rem !important;
+  }
+
+  .overlay-1 {
+    width: inherit;
+    max-height: 5vh;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .overlay-2 {
+    width: inherit;
+    min-height: 1vh;
+  }
+  /* Page Top Navigation Ends */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #sidenav {
+    padding: 2rem 0.5rem 2rem 0.8rem !important;
+  }
+  .logo img {
+    width: 80% !important;
+  }
+
+  nav#sidenav #top {
+    /* margin-top: 0.5rem !important; */
+    min-height: 40vh;
+  }
+
+  #top .links {
+    margin-top: 3rem;
+  }
+
+  nav#sidenav #bottom {
+    margin-bottom: 0.5rem !important;
+    min-height: 10vh;
+  }
+
+  .logo {
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-item .nav-link {
+    padding: 0 0.3rem;
+    font-size: 1.5rem !important;
+  }
+
+  .nav-item {
+    padding: 0;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+  }
+
+  .nav-item .icon {
+    max-width: 2rem;
+    flex-grow: 1;
+  }
+
+  .nav-item .label {
+    max-width: 5rem;
+    flex-grow: 3;
+  }
+  .nav-item .icon svg,
+  .nav-item .icon img {
+    width: 1.5rem !important;
+  }
+
+  .nav-item .icon i {
+    font-size: 1.5rem;
+  }
+
+  #bottom .nav-item {
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.3rem;
+  }
+
+  /* Page Top Navigation Begins */
+  button#play,
+  button#follow {
+    width: 5rem !important;
+    font-size: 0.8rem;
+  }
+
+  #play,
+  #follow {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 0.3rem 0.5rem !important;
+  }
+
+  #btn-container {
+    min-width: 13rem !important;
+  }
+
+  .overlay-1 {
+    width: inherit;
+    max-height: 5vh;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .overlay-2 {
+    width: inherit;
+    min-height: 1vh;
+  }
+  /* Page Top Navigation Ends */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #sidenav {
+    padding: 2rem 0.2rem 2rem 1rem !important;
+  }
+  .logo img {
+    width: 80% !important;
+  }
+
+  nav#sidenav #top {
+    /* margin-top: 0.5rem !important; */
+    min-height: 40vh;
+  }
+
+  #top .links {
+    margin-top: 1rem;
+  }
+
+  nav#sidenav #bottom {
+    margin-bottom: 0.5rem !important;
+    min-height: 10vh;
+  }
+
+  .logo {
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-item .nav-link {
+    padding: 0rem;
+    font-size: 1rem !important;
+  }
+
+  .nav-item {
+    padding: 0;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+  }
+
+  .nav-item .icon {
+    max-width: 2rem;
+    flex-grow: 1;
+  }
+
+  .nav-item .label {
+    max-width: 10rem;
+    flex-grow: 3;
+  }
+  .nav-item .icon svg,
+  .nav-item .icon img {
+    width: 24px !important;
+  }
+
+  .nav-item .icon i {
+    font-size: 24px;
+  }
+
+  #bottom .nav-item {
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.7rem;
+  }
+
+  /* Page Top Navigation Begins */
+  button#play,
+  button#follow {
+    width: 5rem !important;
+    font-size: 0.8rem;
+  }
+
+  #play,
+  #follow {
+    padding: 0 !important;
+    margin: 0 !important;
+    padding: 0.3rem 0.5rem !important;
+  }
+
+  #btn-container {
+    min-width: 13rem !important;
+  }
+
+  .overlay-1 {
+    width: inherit;
+    max-height: 5vh;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .overlay-2 {
+    width: inherit;
+    min-height: 1vh;
+  }
+  /* Page Top Navigation Ends */
+}
