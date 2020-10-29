@@ -1,0 +1,352 @@
+/* Common Styling */
+body {
+  background-color: #005790;
+  background-image: linear-gradient(135deg, #005790 30%, #00021c 100%);
+  color: #eee !important;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2,
+h3 {
+  color: aliceblue;
+}
+
+/* Side Navigation */
+#sidenav {
+  min-height: 90vh;
+  background-color: black;
+}
+
+/* .nav-link:link {
+  color: grey !important;
+}
+
+.nav-link:visited {
+  color: grey !important;
+}
+
+.nav-link:hover {
+  color: grey !important;
+}
+
+.nav-link:active {
+  color: #eee !important;
+}
+.nav-link:focus {
+  color: #eee;
+} */
+
+.active {
+  color: grey !important;
+}
+
+#sidenav {
+  padding: 0.5rem 0.6rem !important;
+}
+.logo img {
+  width: 80% !important;
+}
+
+nav#sidenav #top {
+  margin-top: 0.5rem !important;
+  min-height: 40vh;
+}
+
+nav#sidenav #bottom {
+  margin-bottom: 0.5rem !important;
+  min-height: 10vh;
+}
+
+.logo {
+  margin-bottom: 0.5rem;
+}
+
+.nav-link .nav-item {
+  padding: 0 0.3rem;
+}
+
+.nav-item {
+  padding: 0;
+  flex-direction: row;
+  margin: 0;
+}
+
+.nav-item .icon {
+  flex-grow: 1;
+}
+
+.nav-item .label {
+  flex-grow: 3;
+}
+
+#bottom .nav-item {
+  padding-top: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.nav-link {
+  font-size: 0.7rem !important;
+  display: inline;
+}
+
+/*  */
+
+/* Home Page */
+#home-page {
+  background-color: #005790;
+  background-image: linear-gradient(135deg, #005790 30%, #00021c 100%);
+}
+
+.cnt {
+  font-size: 0.9rem;
+}
+
+.card-body {
+  color: white;
+  align-items: center;
+  margin-top: -1rem;
+}
+
+.menu .img-fluid {
+  min-height: 150px;
+  min-width: 150px;
+  object-fit: cover;
+}
+
+/* Artist Page */
+#artist-page {
+  background-color: #222 !important;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+#artist-page .container-fluid {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url("../assets/main-nav-bg.jpg");
+  min-height: 40vh;
+}
+
+.overlay-1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: inherit;
+  min-height: 35vh;
+}
+
+.overlay-2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: inherit;
+  min-height: 5vh;
+}
+
+/* Album Page */
+#album-page {
+  background-color: #005790;
+  background-image: linear-gradient(135deg, #005790 30%, #00021c 100%);
+}
+
+/* Footer */
+p#listeners {
+  font-size: 0.7rem;
+  color: #ddd;
+}
+
+.main-nav {
+  list-style-type: none;
+  font-size: 0.7rem;
+}
+
+.main-nav a:link {
+  color: #fff !important;
+  list-style-type: none;
+}
+
+.main-nav a:visited {
+  color: #ddd !important;
+  list-style-type: none;
+}
+
+.main-nav a:hover {
+  color: #eee !important;
+  text-decoration: none;
+  border-bottom: 1px solid green;
+}
+
+.main-nav a:active {
+  color: #eee !important;
+  border-bottom: 1px solid green;
+}
+.main-nav a:focus {
+  color: #eee;
+  border-bottom: 1px solid green;
+}
+
+.main-nav a.active {
+  color: #eee !important;
+  border-bottom: 1px solid green;
+}
+
+button#play,
+button#follow {
+  width: 7rem !important;
+}
+
+.progress {
+  height: 0.1rem !important;
+}
+
+.album-details {
+  font-size: 0.9rem !important;
+  padding: 0.5rem 0.25rem;
+}
+
+.current-title {
+  font-size: 0.9rem !important;
+}
+
+.current-artist {
+  font-size: 0.7rem !important;
+  color: #888 !important;
+}
+
+#footer {
+  background-color: #333;
+  min-height: 10vh;
+}
+
+/* Media Queries */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* SideNav */
+  #sidenav {
+    padding: 0.5rem 0.3rem !important;
+  }
+  .logo img {
+    width: 100% !important;
+  }
+
+  nav#sidenav #top {
+    margin-top: 0.5rem !important;
+    min-height: 50vh;
+  }
+
+  nav#sidenav #bottom {
+    margin-bottom: 0.5rem !important;
+    min-height: 10vh;
+  }
+
+  .logo {
+    margin-bottom: 0.5rem;
+  }
+
+  .nav-link .nav-item {
+    padding: 0 0.3rem;
+  }
+
+  .nav-item {
+    padding: 0 0.3rem;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .nav-item .icon {
+    min-width: 26px;
+  }
+
+  .nav-item .label {
+    flex-grow: 3;
+  }
+
+  #bottom .nav-item {
+    padding-top: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.8rem !important;
+  }
+
+  /*  */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .nav-link {
+    font-size: 0.7rem !important;
+    display: inline;
+  }
+
+  nav#sidenav #top {
+    margin-top: 0.5rem !important;
+    min-height: 50vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav-link {
+    font-size: 0.9rem !important;
+    display: inline;
+  }
+
+  nav#sidenav #top {
+    margin-top: 0.5rem !important;
+    min-height: 50vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-link {
+    font-size: 1rem !important;
+    display: inline;
+  }
+
+  #sidenav {
+    padding: 0.5rem 0.3rem !important;
+  }
+
+  nav#sidenav #top {
+    margin-top: 1rem !important;
+    min-height: 50vh;
+  }
+
+  nav#sidenav #bottom {
+    margin-bottom: 0.5rem !important;
+    min-height: 10vh;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .nav-link {
+    font-size: 1rem !important;
+    display: inline;
+  }
+
+  #sidenav {
+    padding: 0.5rem 1.5rem !important;
+  }
+
+  nav#sidenav #top {
+    margin-top: 1.5rem !important;
+    min-height: 50vh;
+  }
+
+  nav#sidenav #bottom {
+    margin-bottom: 1.5rem !important;
+    min-height: 10vh;
+  }
+
+  .nav-item .icon {
+    min-width: 26px;
+  }
+
+  .nav-item .label {
+    flex-grow: 3;
+  }
+}
