@@ -16,7 +16,7 @@ h3 {
 
 /* Side Navigation */
 #sidenav {
-  min-height: 10vh;
+  /* min-height: 10vh; */
   background-color: black;
 }
 
@@ -77,6 +77,7 @@ a.active {
 #home-page {
   background-color: #005790;
   background-image: linear-gradient(135deg, #005790 30%, #00021c 100%);
+  min-height: 70vh;
 }
 
 .cnt {
@@ -176,12 +177,13 @@ button#follow {
     width: 100% !important;
   }
 
-  nav#sidenav #top {
+  /* nav#sidenav #top {
     min-height: 10vh;
-  }
+  } */
 
   nav#sidenav #bottom {
     min-height: 10vh;
+    margin-bottom: 5rem;
   }
 
   .logo {
@@ -268,13 +270,13 @@ button#follow {
     width: 80% !important;
   }
 
-  nav#sidenav #top {
+  /* nav#sidenav #top {
     min-height: 10vh;
-  }
+  } */
 
   nav#sidenav #bottom {
-    margin-bottom: 0.5rem !important;
     min-height: 10vh;
+    margin-bottom: 5rem;
   }
 
   .logo {
@@ -360,14 +362,14 @@ button#follow {
     width: 80% !important;
   }
 
-  nav#sidenav #top {
-    /* margin-top: 0.5rem !important; */
-    min-height: 40vh;
-  }
+  /* nav#sidenav #top {
+    margin-top: 0.5rem !important;
+    min-height: 10vh;
+  } */
 
   nav#sidenav #bottom {
-    margin-bottom: 0.5rem !important;
-    min-height: 10vh;
+    margin-bottom: 3rem !important;
+    /* min-height: 10vh; */
   }
 
   .logo {
@@ -376,7 +378,7 @@ button#follow {
 
   .nav-item .nav-link {
     padding: 0 0.3rem;
-    font-size: 1.2rem !important;
+    font-size: 0.9rem !important;
   }
 
   .nav-item {
@@ -397,11 +399,11 @@ button#follow {
   }
   .nav-item .icon svg,
   .nav-item .icon img {
-    width: 24px !important;
+    width: 18px !important;
   }
 
   .nav-item .icon i {
-    font-size: 24px;
+    font-size: 18px;
   }
 
   #bottom .nav-item {
@@ -451,10 +453,10 @@ button#follow {
     width: 80% !important;
   }
 
-  nav#sidenav #top {
-    /* margin-top: 0.5rem !important; */
-    min-height: 40vh;
-  }
+  /* nav#sidenav #top {
+    margin-top: 0.5rem !important;
+    min-height: 10vh;
+  } */
 
   #top .links {
     margin-top: 3rem;
@@ -462,7 +464,7 @@ button#follow {
 
   nav#sidenav #bottom {
     margin-bottom: 0.5rem !important;
-    min-height: 10vh;
+    /* min-height: 10vh; */
   }
 
   .logo {
@@ -546,10 +548,10 @@ button#follow {
     width: 80% !important;
   }
 
-  nav#sidenav #top {
-    /* margin-top: 0.5rem !important; */
-    min-height: 40vh;
-  }
+  /* nav#sidenav #top {
+    margin-top: 0.5rem !important;
+    min-height: 10vh;
+  } */
 
   #top .links {
     margin-top: 1rem;
@@ -557,7 +559,7 @@ button#follow {
 
   nav#sidenav #bottom {
     margin-bottom: 0.5rem !important;
-    min-height: 10vh;
+    /* min-height: 10vh; */
   }
 
   .logo {
