@@ -16,7 +16,7 @@ h3 {
 
 /* Side Navigation */
 #sidenav {
-  min-height: 90vh;
+  min-height: 10vh;
   background-color: black;
 }
 
@@ -111,13 +111,11 @@ a.active {
 }
 
 .overlay-1 {
-  background-color: rgba(0, 0, 0, 0.5);
   width: inherit;
   min-height: 35vh;
 }
 
 .overlay-2 {
-  background-color: rgba(0, 0, 0, 0.5);
   width: inherit;
   min-height: 5vh;
 }
@@ -179,7 +177,7 @@ button#follow {
   }
 
   nav#sidenav #top {
-    min-height: 50vh;
+    min-height: 10vh;
   }
 
   nav#sidenav #bottom {
@@ -245,6 +243,18 @@ button#follow {
   #btn-container {
     min-width: 13rem !important;
   }
+
+  .overlay-1 {
+    width: inherit;
+    min-height: 20vh;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .overlay-2 {
+    width: inherit;
+    min-height: 1vh;
+  }
   /* Page Top Navigation Ends */
 }
 
@@ -259,7 +269,7 @@ button#follow {
   }
 
   nav#sidenav #top {
-    min-height: 40vh;
+    min-height: 10vh;
   }
 
   nav#sidenav #bottom {
@@ -325,6 +335,18 @@ button#follow {
 
   #btn-container {
     min-width: 13rem !important;
+  }
+
+  .overlay-1 {
+    width: inherit;
+    min-height: 5vh;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .overlay-2 {
+    width: inherit;
+    min-height: 1vh;
   }
   /* Page Top Navigation Ends */
 }
@@ -404,6 +426,18 @@ button#follow {
 
   #btn-container {
     min-width: 13rem !important;
+  }
+
+  .overlay-1 {
+    width: inherit;
+    max-height: 5vh;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .overlay-2 {
+    width: inherit;
+    min-height: 1vh;
   }
   /* Page Top Navigation Ends */
 }
@@ -488,6 +522,18 @@ button#follow {
   #btn-container {
     min-width: 13rem !important;
   }
+
+  .overlay-1 {
+    width: inherit;
+    max-height: 5vh;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .overlay-2 {
+    width: inherit;
+    min-height: 1vh;
+  }
   /* Page Top Navigation Ends */
 }
 
@@ -570,6 +616,18 @@ button#follow {
 
   #btn-container {
     min-width: 13rem !important;
+  }
+
+  .overlay-1 {
+    width: inherit;
+    max-height: 5vh;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  .overlay-2 {
+    width: inherit;
+    min-height: 1vh;
   }
   /* Page Top Navigation Ends */
 }
