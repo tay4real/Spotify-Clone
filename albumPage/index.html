@@ -19,105 +19,63 @@
     <title>Document</title>
 </head>
 
-<div class="d-none d-md-block col-md-3 col-lg-2  " style="background-color:black">
-    <ul class="nav flex-column d-none d-md-block" id="side-bar">
-        <li class="nav-item">
-            <a class="nav-link active" href="#">
-                <img class="title img-fluid" src="assets/spotify_logo_white.png" alt="spotify logo" /></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link mt-2" href="#"><svg width="1.5em" height="2em" viewBox="0 0 16 16"
-                    class="bi bi-house-door mr-3 ml-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M7.646 1.146a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5H9.5a.5.5 0 0 1-.5-.5v-4H7v4a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6zM2.5 7.707V14H6v-4a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5v4h3.5V7.707L8 2.207l-5.5 5.5z" />
-                    <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z" />
-                </svg>Home</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><svg width="1.5em" height="2em" viewBox="0 0 16 16"
-                    class="bi bi-search mr-3 ml-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
-                    <path fill-rule="evenodd"
-                        d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
-                </svg>Search</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><svg width="1.5em" height="2em" viewBox="0 0 16 16"
-                    class="bi bi-bar-chart-line mr-3 ml-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z" />
-                </svg>Your Library</a>
-        </li>
-        <li class="playlist nav-item">
-            <p style="color: grey" class="ml-3 mt-4">PLAYLISTS</p>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><svg width="1.5em" height="2em" viewBox="0 0 16 16"
-                    class="bi bi-plus-square-fill mr-3 ml-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd"
-                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z" />
-                </svg>Create Playlist</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><svg width="1.5em" height="2em" viewBox="0 0 16 16"
-                    class="bi bi-suit-heart-fill mr-3 ml-1" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z" />
-                </svg>Liked Songs</a>
-        </li>
-        <hr />
-        <li class="nav-item">
-            <a class="nav-link" href="#"><button type="button" class="btn-sign">SIGN UP</button></a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><button type="button" class="btn-login">LOGIN</button></a>
-        </li>
-    </ul>
-</div>
-<section class="container-fluid">
-    <div>
-        <img class="img-fluid" id="queenThumbImg"
-            src="https://i.scdn.co/image/ab67616d00001e02d92f69c3b3adb389afdde64f">
-        <p id="albumTit1" for="queenThumbImg">ALBUM | 59 min. 47 sec.</p>
-        <p id="albumTit2" for="queenThumbImg">Queen&nbsp;II&nbsp;(Deluxe&nbsp;Edition&nbsp;2011&nbsp;Remaster)</p>
-        <div id="a2ndDiv">
-            <i class="fas fa-play-circle" id="icon1"></i>
-            <i class="far fa-heart icon2"></i>
-            <i class="fas fa-ellipsis-h icon2"></i>
+<section id="n2ndSec">
+    <div class="jumbotron py-0 align-items-center text-center">
+
+
+        <div class="buttonbox">
+            <p id="albumTit1" for="queenThumbImg">ALBUM | 59 min. 47 sec.</p>
+            <label id="albumTit2" for="queenThumbImg">
+                <img id="queenThumbImg" src="https://i.scdn.co/image/ab67616d00001e02f30a542e495d92362519cf06">
+                Queen&nbsp;II&nbsp;(2011&nbsp;Remaster)</label>
+            <div class="container-fluid d-flex align-items-start">
+                <img src="assets/icons8-circled-play-68.png" alt="...">
+                <i class="far fa-heart icon2"></i>
+                <i class="fas fa-ellipsis-h icon2"></i>
+            </div>
+
         </div>
     </div>
+
     <div>
-        <p style="margin-left: 18rem; margin-top: 3rem">#&nbsp&nbsp&nbsp&nbspTitle</p>
-        <hr id="hr1" style="background-color: white; max-width: 70vw; margin-top: -0.5rem;">
+        <label>&nbsp;&nbsp;&nbsp;#&nbsp;&nbsp;&nbsp;Title</label>
+        <hr id="hrF">
     </div>
+
     <div>
-        <ol style="margin-left:14rem" id="sList">
-            <li>tryout tryout tryout tryout tryout tryout tryout <br> <span
-                    style="color: grey; font-size: 14px;">Queen</span></li>
-            <li>tryout tryout tryout tryout tryout tryout tryout <br> <span
-                    style="color: grey; font-size: 14px;">Queen</span></li>
-            <li>tryout tryout tryout tryout tryout tryout tryout <br> <span
-                    style="color: grey; font-size: 14px;">Queen</span></li>
-            <li>tryout tryout tryout tryout tryout tryout tryout <br> <span
-                    style="color: grey; font-size: 14px;">Queen</span></li>
-            <li>tryout tryout tryout tryout tryout tryout tryout <br> <span
-                    style="color: grey; font-size: 14px;">Queen</span></li>
-            <li>tryout tryout tryout tryout tryout tryout tryout <br> <span
-                    style="color: grey; font-size: 14px;">Queen</span></li>
-            <li>tryout tryout tryout tryout tryout tryout tryout <br> <span
-                    style="color: grey; font-size: 14px;">Queen</span></li>
-            <li>tryout tryout tryout tryout tryout tryout tryout <br> <span
-                    style="color: grey; font-size: 14px;">Queen</span></li>
-            <li>tryout tryout tryout tryout tryout tryout tryout <br> <span
-                    style="color: grey; font-size: 14px;">Queen</span></li>
-            <li>tryout tryout tryout tryout tryout tryout tryout <br> <span
-                    style="color: grey; font-size: 14px;">Queen</span></li>
-            <li>tryout tryout tryout tryout tryout tryout tryout <br> <span
-                    style="color: grey; font-size: 14px;">Queen</span></li>
-
-
+        <ol id="sList">
+            <li class="spanCl">Procession - Remastered 2011<br> <span class="spanC">Queen</span>
+            </li>
+            <li class="spanCl">Father To Son - Remastered 2011<br> <span class="
+                    spanC">Queen</span></li>
+            <li class="spanCl">White Queen (As It Began) - Remastered 2011<br> <span class="spanC">Queen</span>
+            </li>
+            <li class="spanCl">Some Day One Day - Remastered 2011<br> <span class="
+                    spanC">Queen</span></li>
+            <li class="spanCl">The Loser In The End - Remastered 2011<br> <span class="spanC">Queen</span>
+            </li>
+            <li class="spanCl">Ogre Battle - Remastered 2011<br> <span class="
+                    spanC">Queen</span></li>
+            <li class="spanCl">The Fairy's Feller's Master-Stroke - Remastered 2011<br> <span class="spanC">Queen</span>
+            </li>
+            <li class="spanCl">Nevermore - Remastered 2011<br> <span class="
+                    spanC">Queen</span></li>
+            <li class="spanCl">The March Of The Black Queen - Remastered 2011<br> <span class="spanC">Queen</span>
+            </li>
+            <li class="spanCl">Funny How Love Is - Remastered 2011<br> <span class="
+                    spanC">Queen</span></li>
+            <li class="spanCl">Seven Seas Of Rhye - Remastered 2011<br> <span class="spanC">Queen</span>
+            </li>
         </ol>
+    </div>
+
+    <div>
+        <p style="font-size:11px; font-weight: 200; color: grey">© 2011 Queen Productions Ltd. under exclusive licence
+            to Universal
+            International Music
+            BV<br>
+
+            ℗ 2011 Queen Productions Ltd. under exclusive licence to Universal International Music BV</p>
     </div>
 </section>
 
@@ -162,6 +120,7 @@
         </div>
     </div>
 </div>
+
 </body>
 
 </html>
