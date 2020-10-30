@@ -1,115 +1,206 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
+    <!-- Fontawesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-    </script>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
 
-    <title>Spotify Clone | Login</title>
-</head>
+    <link rel="stylesheet" href="styles.css" />
 
-<body>
-    <div class="head">
-        <img src="assets/Spotify_Logo_CMYK_Black.png" width=200>
+    <title>Spotify | Login</title>
+  </head>
+  <body>
+    <div class="d-flex py-3">
+      <img
+        src="assets/Spotify_Logo_CMYK_Black.png"
+        class="m-auto"
+        width="200"
+        alt="Spotify Logo"
+      />
     </div>
-    <hr>
-    <section class="bSection container-fluid">
-        <div class="row">
-            <div class="col-xs-12 text-center">
-                <h6 class="bHeader">To continue, log in to Spotify.</h6>
-            </div>
+    <hr class="m-0" />
+    <div class="container d-flex mt-3">
+      <div class="m-auto">
+        <div class="row my-1">
+          <div class="col text-center">
+            <h6 class="text-dark">To continue, log in to Spotify.</h6>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <button type="button" class="btn fButton"><i class="fab fa-facebook"></i>CONTINUE WITH FACEBOOK</button>
-            </div>
+        <div class="row my-2">
+          <div class="col col-md-6 m-auto">
+            <button class="btn fButton rounded-pill px-5 w-100" type="submit">
+              <i class="fab fa-google pr-2"></i> CONTINUE WITH FACEBOOK
+            </button>
+          </div>
+        </div>
+        <div class="row my-2">
+          <div class="col col-md-6 m-auto">
+            <button class="btn aButton rounded-pill px-5 w-100" type="submit">
+              <i class="fab fa-facebook pr-2"></i> CONTINUE WITH FACEBOOK
+            </button>
+          </div>
+        </div>
+        <div class="row my-2">
+          <div class="col col-md-6 m-auto">
+            <button
+              class="btn btn-outline-secondary rounded-pill px-5 w-100"
+              type="submit"
+            >
+              <i class="fab fa-apple pr-2"></i> CONTINUE WITH APPLE
+            </button>
+          </div>
         </div>
 
         <div class="row">
-            <div class="col-xs-12">
-                <button type="button" class="btn aButton"><i class="fab fa-apple"></i>CONTINUE WITH
-                    APPLE</button>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-xs-12">
-                <button type="button" class="btn gButton btn-outline-secondary"><i class="fab fa-google"></i>CONTINUE
-                    WITH
-                    GOOGLE</button>
-            </div>
-        </div>
-    </section>
-
-    <hr class="tLine">
-
-    <form class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12">
-                <label for="email" class="lSection labelSection">Email address or
-                    username</label>
-                <input placeholder="Email, address or username" type="text" id="email" name="email"
-                    class="form-control lSection inputSection">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 form">
-                <label for="message" class="lSection labelSection">Password</label>
-                <input placeholder="Password" type="password" id="message" name="message" rows="2"
-                    class="form-control lSection inputSection"></input>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <button type="button" class="btn fypText">Forgot you password?</button>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-6">
-                <label for="checkboxlab" class="labelbox">
-                    <input type="checkbox" id="checkboxlab">
-                    Remember me
-                </label>
-            </div>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-            <button type="button" class="btn loginButton">LOG IN</button>
-        </div>
-    </form>
-
-
-
-    <div class="row">
-        <div class="col-sx-12">
+          <div class="col col-md-6 m-auto">
             <div class="row">
-                <hr id="loginHr">
+              <div class="col dividers">
+                <strong style="margin-top: 3px">OR</strong>
+              </div>
             </div>
-            <div class="row text-center mt-0">
-                <h6 class="bHeader" style="font-size:18px !important;">Don't have an account?</h6>
-            </div>
-            <div>
-                <div class="row">
-                    <div class="col-sx-12">
-                        <button type="button" class="btn cButton btn-outline-secondary">SIGN UP FOR
-                            SPOTIFY</button>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <form>
+          <div class="row">
+            <div class="col col-md-6 m-auto">
+              <div class="form-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  placeholder="Email, address or username"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-md-6 m-auto">
+              <div class="form-group">
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                  placeholder="Password"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col col-md-6 m-auto">
+              <div class="row">
+                <div class="col">
+                  <div class="form-group form-check">
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="exampleCheck1"
+                    />
+                    <label class="form-check-label" for="exampleCheck1"
+                      >Remember me</label
+                    >
+                  </div>
+                </div>
+
+                <div class="col">
+                  <button
+                    type="submit"
+                    class="btn loginButton w-100 rounded-pill"
+                  >
+                    Login
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col col-md-6 m-auto text-center">
+              <a href="#" class="btn fypText"> Forgot you password? </a>
+            </div>
+          </div>
+        </form>
+
+        <div class="row">
+          <div class="col-md-6 m-auto">
+            <hr id="loginHr" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-md-6 m-auto">
+            <h6 class="text-center">Don't have an account?</h6>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col col-md-6 m-auto">
+            <button
+              type="button"
+              class="btn cButton btn-outline-secondary rounded-pill w-100"
+            >
+              SIGN UP FOR SPOTIFY
+            </button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 m-auto">
+            <hr id="loginHr" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-6 m-auto text-center text-muted">
+            <p>
+              <small>
+                if you click "Log in with Facebook and are not a Spotify user,
+                you will be registered and you agree to Spotify's
+                <a href="#" class="fypText">Terms & Conditions</a> and
+                <a href="#" class="fypText">Privacy Policy</a> "
+              </small>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-</body>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
 
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>

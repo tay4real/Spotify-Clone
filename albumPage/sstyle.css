@@ -1,0 +1,157 @@
+    body {
+        background: rgb(18, 18, 18);
+        background: linear-gradient(0deg, rgba(18, 18, 18, 1) 0%, rgba(30, 46, 46, 1) 75%);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        min-height: 100vh;
+        color: white;
+    }
+
+    #queenThumbImg {
+        width: 14.3rem;
+        margin-top: 5.25rem;
+        margin-left: 15.9rem;
+    }
+
+    #albumTit1 {
+        color: white;
+        font-weight: 700;
+        font-size: 12px;
+        margin-top: -8.45rem;
+        margin-left: 31.8rem;
+    }
+
+    #albumTit2 {
+        color: white;
+        font-weight: 700;
+        font-size: 70px;
+        letter-spacing: -2.8px;
+        margin-top: -1.75rem;
+        margin-left: 31.5rem;
+    }
+
+    #a2ndDiv {
+        margin-top: 5.5rem;
+    }
+
+    #icon1 {
+        transform: scale(3.7, 3.7);
+    }
+
+    .icon2 {
+        transform: scale(2, 2);
+        margin-left: 3.8rem;
+        color: #abacac
+    }
+
+    #sList li {
+        margin-bottom: 1rem;
+    }
+
+    .fa-play-circle {
+        margin-left: 17rem;
+        color: greenyellow
+    }
+
+    #side-bar {
+        background-color: #191414;
+        z-index: 3;
+    }
+
+    #side-bar.nav {
+        background-color: black;
+        z-index: 3;
+
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .playlist {
+        font-weight: 600;
+        font-size: 13px;
+    }
+
+    .nav a {
+        font-weight: 600;
+        color: rgb(158, 158, 158);
+        font-size: 15px;
+    }
+
+    .title {
+        box-sizing: border-box;
+        width: 135px;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+        margin-left: 9px;
+    }
+
+    li a:hover {
+        color: white;
+        transition: 0.5s ease-in-out;
+    }
+
+    li a:active {
+        background-color: rgba(128, 128, 128, 0.336);
+        border-radius: 10px;
+    }
+
+    .btn-login,
+    .btn-sign {
+        border-radius: 18px;
+        border: solid white;
+        font-size: 14px;
+        align-content: center;
+    }
+
+    .btn-login:hover {
+        background-color: #1db954;
+        transition: 0.7s ease-in-out;
+        color: black;
+    }
+
+    .btn-sign:hover {
+        background-color: #1db954;
+        transition: 0.7s ease-in-out;
+        color: white;
+    }
+
+    .btn-sign {
+        padding: 4px;
+        bottom: 130px;
+        position: absolute;
+        left: 10px;
+        width: 8rem;
+        background-color: white;
+    }
+
+    .btn-login {
+        padding: 4px;
+        bottom: 90px;
+        position: absolute;
+        left: 10px;
+        width: 8rem;
+        background-color: black;
+        color: white;
+    }
+
+    .main-part .row img {
+        object-fit: cover;
+    }
+
+    .main-part .card {
+        align-items: center;
+    }
+
+    .main-nav a:hover {
+        border-bottom: solid 5px #1db954;
+        border-radius: 0px;
+    }
+
+    .main-nav .nav-link.active {
+        color: #fff;
+        border-bottom: solid 5px #1db954;
+        border-radius: 0px;
+    }

@@ -1,0 +1,56 @@
+.fButton {
+  background-color: #3b5998 !important;
+  color: #ffffff !important;
+}
+
+.fButton:hover {
+  background-color: #2f4b88 !important;
+  color: #ffffff !important;
+}
+
+.aButton {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+.aButton:hover {
+  background-color: #111222 !important;
+  color: #ffffff !important;
+}
+
+.dividers {
+  border-top: 1px solid #d9dadc;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 0;
+  position: relative;
+}
+
+.dividers strong {
+  position: absolute;
+  top: -12px;
+  left: 40%;
+  font-size: 12px;
+  z-index: 2;
+  background-color: white;
+  padding: 0 15px;
+}
+
+.loginButton {
+  background-color: #008321 !important;
+  color: #ffffff !important;
+}
+
+.loginButton:hover {
+  background-color: #03631b !important;
+  color: #ffffff !important;
+}
+
+.fypText {
+  text-align: center;
+  color: green !important;
+}
+
+.fypText:hover {
+  color: rgb(0, 88, 0) !important;
+}
