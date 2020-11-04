@@ -37,118 +37,74 @@
         alt="Spotify Logo"
       />
     </div>
-    <hr class="m-0" />
-    <div class="container d-flex mt-3">
-      <div class="m-auto">
-        <div class="row my-1">
-          <div class="col text-center">
-            <h6 class="text-dark">To continue, log in to Spotify.</h6>
-          </div>
-        </div>
-        <div class="row my-2">
-          <div class="col col-md-6 m-auto">
-            <button class="btn fButton rounded-pill px-5 w-100" type="submit">
-              <i class="fab fa-google pr-2"></i> CONTINUE WITH FACEBOOK
-            </button>
-          </div>
-        </div>
-        <div class="row my-2">
-          <div class="col col-md-6 m-auto">
-            <button class="btn aButton rounded-pill px-5 w-100" type="submit">
-              <i class="fab fa-facebook pr-2"></i> CONTINUE WITH FACEBOOK
-            </button>
-          </div>
-        </div>
-        <div class="row my-2">
-          <div class="col col-md-6 m-auto">
-            <button
-              class="btn btn-outline-secondary rounded-pill px-5 w-100"
-              type="submit"
-            >
-              <i class="fab fa-apple pr-2"></i> CONTINUE WITH APPLE
-            </button>
-          </div>
-        </div>
+    <hr>
+    <div class="container d-flex flex-column justify-content-center align-content-center ">
 
-        <div class="row">
-          <div class="col col-md-6 m-auto">
+        <section class="bSection container-fluid">
             <div class="row">
-              <div class="col dividers">
-                <strong style="margin-top: 3px">OR</strong>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- <form> -->
-        <div class="row">
-          <div class="col col-md-6 m-auto">
-            <div class="form-group">
-              <input
-                type="text"
-                class="form-control"
-                id="username"
-                placeholder="Email, address or username"
-                aria-describedby="emailHelp"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col col-md-6 m-auto">
-            <div class="form-group">
-              <input
-                type="password"
-                class="form-control"
-                id="password"
-                placeholder="Password"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col col-md-6 m-auto">
-            <div class="row">
-              <div class="col">
-                <div class="form-group form-check">
-                  <input
-                    type="checkbox"
-                    class="form-check-input"
-                    id="remeber-me"
-                  />
-                  <label class="form-check-label" for="exampleCheck1"
-                    >Remember me</label
-                  >
+                <div class="col-xs-12 text-center">
+                    <h6 class="bHeader">To continue, log in to Spotify.</h6>
                 </div>
-              </div>
-
-              <div class="col">
-                <a href="../homePage/index.html"
-                  ><button
-                    id="login"
-                    type="submit"
-                    class="btn loginButton w-100 rounded-pill"
-                  >
-                    Login
-                  </button></a
-                >
-              </div>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col col-md-6 m-auto text-center">
-            <a href="#" class="btn fypText"> Forgot you password? </a>
-          </div>
-        </div>
-        <!-- </form> -->
+            <div class="row">
+                <div class="col-xs-12">
+                    <button type="button" class="btn fButton"><i class="fab fa-facebook"></i>CONTINUE WITH
+                        FACEBOOK</button>
+                </div>
+            </div>
 
-        <div class="row">
-          <div class="col-md-6 m-auto">
-            <hr id="loginHr" />
-          </div>
-        </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button type="button" class="btn aButton"><i class="fab fa-apple"></i>CONTINUE WITH
+                        APPLE</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <button type="button" class="btn gButton btn-outline-secondary"><i
+                            class="fab fa-google"></i>CONTINUE
+                        WITH
+                        GOOGLE</button>
+                </div>
+            </div>
+        </section>
+
+        <hr class="tLine">
+
+        <form class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <label for="email" class="lSection labelSection">Email address or
+                        username</label>
+                    <input placeholder="Email, address or username" type="text" id="email" name="email"
+                        class="form-control lSection inputSection">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 form">
+                    <label for="message" class="lSection labelSection">Password</label>
+                    <input placeholder="Password" type="password" id="message" name="message" rows="2"
+                        class="form-control lSection inputSection"></input>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button type="button" class="btn fypText">Forgot you password?</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <label for="checkboxlab" class="labelbox">
+                        <input type="checkbox" id="checkboxlab">
+                        Remember me
+                    </label>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <button type="button" class="btn loginButton">LOG IN</button>
+            </div>
+        </form>
 
         <div class="row">
           <div class="col col-md-6 m-auto">
@@ -168,38 +124,26 @@
         </div>
 
         <div class="row">
-          <div class="col-md-6 m-auto">
-            <hr id="loginHr" />
-          </div>
+            <div class="col-sx-12">
+                <div class="row">
+                    <hr id="loginHr">
+                </div>
+                <div class="row text-center mt-0">
+                    <h6 class="bHeader" style="font-size:18px !important;">Don't have an account?</h6>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-sx-12">
+                            <button type="button" class="btn cButton btn-outline-secondary">SIGN UP FOR
+                                SPOTIFY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col col-md-6 m-auto text-center text-muted">
-            <p>
-              <small>
-                if you click "Log in with Facebook and are not a Spotify user,
-                you will be registered and you agree to Spotify's
-                <a href="#" class="fypText">Terms & Conditions</a> and
-                <a href="#" class="fypText">Privacy Policy</a> "
-              </small>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Optional JavaScript; choose one of the two! -->
 
-    <script src="../js/login.js"></script>
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-      crossorigin="anonymous"
-    ></script>
+    </div>
+</body>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
