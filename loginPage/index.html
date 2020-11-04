@@ -80,66 +80,69 @@
           </div>
         </div>
 
-        <form>
-          <div class="row">
-            <div class="col col-md-6 m-auto">
-              <div class="form-group">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleInputEmail1"
-                  placeholder="Email, address or username"
-                  aria-describedby="emailHelp"
-                />
-              </div>
+        <!-- <form> -->
+        <div class="row">
+          <div class="col col-md-6 m-auto">
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                id="username"
+                placeholder="Email, address or username"
+                aria-describedby="emailHelp"
+              />
             </div>
           </div>
-          <div class="row">
-            <div class="col col-md-6 m-auto">
-              <div class="form-group">
-                <input
-                  type="password"
-                  class="form-control"
-                  id="exampleInputPassword1"
-                  placeholder="Password"
-                />
-              </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-6 m-auto">
+            <div class="form-group">
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="Password"
+              />
             </div>
           </div>
+        </div>
 
-          <div class="row">
-            <div class="col col-md-6 m-auto">
-              <div class="row">
-                <div class="col">
-                  <div class="form-group form-check">
-                    <input
-                      type="checkbox"
-                      class="form-check-input"
-                      id="exampleCheck1"
-                    />
-                    <label class="form-check-label" for="exampleCheck1"
-                      >Remember me</label
-                    >
-                  </div>
+        <div class="row">
+          <div class="col col-md-6 m-auto">
+            <div class="row">
+              <div class="col">
+                <div class="form-group form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="remeber-me"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Remember me</label
+                  >
                 </div>
+              </div>
 
-                <div class="col">
-                  <button
+              <div class="col">
+                <a href="../homePage/index.html"
+                  ><button
+                    id="login"
                     type="submit"
                     class="btn loginButton w-100 rounded-pill"
                   >
                     Login
-                  </button>
-                </div>
+                  </button></a
+                >
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col col-md-6 m-auto text-center">
-              <a href="#" class="btn fypText"> Forgot you password? </a>
-            </div>
+        </div>
+        <div class="row">
+          <div class="col col-md-6 m-auto text-center">
+            <a href="#" class="btn fypText"> Forgot you password? </a>
           </div>
-        </form>
+        </div>
+        <!-- </form> -->
 
         <div class="row">
           <div class="col-md-6 m-auto">
@@ -185,6 +188,7 @@
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
+    <script src="../js/login.js"></script>
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

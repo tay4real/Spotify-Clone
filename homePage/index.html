@@ -25,10 +25,10 @@
 
     <link rel="stylesheet" href="../css/styles.css" />
 
-    <title>Spotify | Artist</title>
+    <title>Spotify | Home</title>
   </head>
   <body>
-    <div class="row m-0 p-0">
+    <div class="row m-0 p-0" style="min-height: 90vh">
       <nav
         id="sidenav"
         class="col col-2 col-md-2 col-lg-2 d-flex flex-column justify-content-between p-0"
@@ -59,7 +59,10 @@
                   </svg>
                 </span>
                 <span class="label"
-                  ><a class="nav-link text-muted p-0" href="#">
+                  ><a
+                    class="nav-link text-muted p-0"
+                    href="../homePage/index.html"
+                  >
                     Home <span class="sr-only">(current)</span></a
                   ></span
                 >
@@ -81,7 +84,7 @@
                   </svg>
                 </span>
                 <span class="label">
-                  <a class="nav-link text-muted p-0" href="#"> Search </a></span
+                  <a class="nav-link text-muted p-0" href="../albumPage/index2.html"> Search </a></span
                 >
               </li>
 
@@ -103,7 +106,9 @@
                 </span>
 
                 <span class="label"
-                  ><a class="nav-link text-muted p-0" href="#"
+                  ><a
+                    class="nav-link text-muted p-0"
+                    href="../artistPage/index.html"
                     >Your Library
                   </a></span
                 >
@@ -112,8 +117,8 @@
           </div>
         </div>
 
-        <div id="bottom">
-          <ul class="navbar-nav">
+        <div id="bottom" style="margin-bottom: 15rem">
+          <!-- <ul class="navbar-nav">
             <li class="nav-item d-flex">
               <span class="icon">
                 <i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i
@@ -139,7 +144,22 @@
                 </a>
               </span>
             </li>
-          </ul>
+          </ul> -->
+
+          <div class="row my-2">
+            <div class="col col-md-6 m-auto">
+              <a href="../loginPage/index.html"><button class="btn btn-primary rounded-pill" style="min-width: 7.5rem;" type="submit">
+                LOGIN
+             </button></a>
+            </div>
+          </div>
+          <div class="row my-2">
+            <div class="col col-md-6 m-auto">
+              <button class="btn btn-outline-secondary rounded-pill " style="min-width: 7.5rem;" type="submit">
+ SIGN UP
+              </button>
+            </div>
+
         </div>
       </nav>
       <div id="home-page" class="col col-10 col-md-10 col-lg-10 m-0 p-0">

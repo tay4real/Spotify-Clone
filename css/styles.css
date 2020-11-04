@@ -3,6 +3,66 @@ body {
   color: #eee !important;
 }
 
+#queenThumbImg {
+  width: 14vw;
+  min-width: 8rem;
+}
+
+#albumTit1 {
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#albumTit2 {
+  color: white;
+  font-weight: 700;
+  font-size: 4.5vw;
+  letter-spacing: -2px;
+}
+
+.spanC {
+  color: grey;
+  font-size: 14px;
+}
+
+.spanCl {
+  font-weight: 400;
+  margin-top: 1.55vw;
+}
+
+.icon2 {
+  transform: scale(2, 2);
+  color: #abacac;
+  margin-left: 1.931rem;
+  margin-top: 1.81rem;
+}
+
+#hrF {
+  background-color: white;
+  margin-top: -5px;
+  opacity: 15%;
+}
+
+.fa-play-circle {
+  color: greenyellow;
+}
+
+.jumbotron {
+  justify-content: start;
+  display: flex;
+  position: relative;
+  padding: 0;
+  width: 100%;
+  height: 36vh;
+  background: none;
+}
+
+#n2ndSec {
+  position: absolute;
+  left: 11vw;
+  background: none;
+}
 /* {
   background-color: #005790;
   background-image: linear-gradient(135deg, #005790 30%, #00021c 100%);
